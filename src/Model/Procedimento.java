@@ -29,31 +29,31 @@ public class Procedimento {
     }
 
 
-    private String getNome(){
+    public String getNome(){
         return nome;
     }
-    private void setNome(String nome){
+    public void setNome(String nome){
         this.nome = nome;
     }
 
-    private String gettipo(){
-        return nome;
+    public String getTipo(){
+        return tipo;
     }
-    private void setTipo(String tipo){
+    public void setTipo(String tipo){
         this.tipo = tipo;
     }
 
-    private Double getvalor(){
+    public Double getValor(){
         return valor;
     }
-    private void setValor(Double valor){
+    public void setValor(Double valor){
         this.valor = valor;
     }
 
-    private int getDuracao(){
+    public int getDuracao(){
         return duracao;
     }
-    private void setDuracao(int duracao){
+    public void setDuracao(int duracao){
         this.duracao = duracao;
     }
 }
